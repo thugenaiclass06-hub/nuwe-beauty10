@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import heroPoster from "@assets/Gemini_Generated_Image_1cxxa61cxxa61cxx_1764781447898.png";
 import { Button } from "@/components/ui/button";
 
 export default function Hero() {
@@ -59,7 +58,7 @@ export default function Hero() {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-4 border-white/50 transform hover:rotate-1 transition-transform duration-500">
               <img 
-                src={heroPoster} 
+                src="/hero-poster.png" 
                 alt="NUWE Brand Poster" 
                 className="w-full h-auto object-cover"
               />
