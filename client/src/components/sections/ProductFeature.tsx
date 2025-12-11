@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import productImg from "@assets/Gemini_Generated_Image_351mrg351mrg351m_1764781526276.png";
 import { Check, Sparkles, Feather, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -43,7 +42,7 @@ export default function ProductFeature() {
           >
             <div className="aspect-square rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white">
               <img 
-                src={productImg} 
+                src="/product-feature.png" 
                 alt="NUWE Tone-up Cream" 
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />

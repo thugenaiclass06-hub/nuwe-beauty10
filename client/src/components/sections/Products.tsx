@@ -10,9 +10,6 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import productImg1 from "@assets/Gemini_Generated_Image_351mrg351mrg351m_1764781526276.png";
-import productImg2 from "@assets/generated_images/travel_size_cosmetic_tube.png";
-import productImg3 from "@assets/generated_images/cosmetic_gift_set_box.png";
 
 // Fallback images if generated ones aren't ready immediately, 
 // though in this flow they should be. 
@@ -24,7 +21,7 @@ const products = [
     id: 1,
     name: "NUWE 輕透素顏霜 (經典款)",
     price: "NT$ 880",
-    image: productImg1,
+    image: "/product-feature.png",
     tag: "熱銷 TOP 1",
     description: "30ml 經典容量。一抹提亮，打造如雲朵般輕盈的偽素顏妝感。富含保濕成分，妝養合一，讓肌膚整天水潤透氣。",
     details: [
@@ -38,7 +35,7 @@ const products = [
     id: 2,
     name: "NUWE 輕透素顏霜 (旅行版)",
     price: "NT$ 350",
-    image: productImg2,
+    image: "/product-tube.png",
     tag: "便攜首選",
     description: "10ml 輕巧包裝。小巧好攜帶，隨時隨地補妝，保持完美氣色。適合旅行、出差或隨身攜帶。",
     details: [
@@ -51,7 +48,7 @@ const products = [
     id: 3,
     name: "NUWE 雲朵光感禮盒",
     price: "NT$ 1,680",
-    image: productImg3,
+    image: "/product-gift-set.png",
     tag: "送禮推薦",
     description: "包含經典素顏霜 30ml + 旅行版 10ml，再贈送品牌訂製雲朵化妝包。給自己或閨蜜最貼心的呵護。",
     details: [

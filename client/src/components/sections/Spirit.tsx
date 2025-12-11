@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import moodImg from "@assets/generated_images/natural_beauty_mood_shot.png";
 
 export default function Spirit() {
   return (
@@ -48,7 +47,7 @@ export default function Spirit() {
           >
              <div className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
                 <img 
-                  src={moodImg} 
+                  src="/mood-shot.png" 
                   alt="Natural Beauty Mood" 
                   className="w-full h-full object-cover"
                 />
